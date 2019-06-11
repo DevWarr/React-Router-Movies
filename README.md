@@ -40,7 +40,7 @@ If you have completed Parts 1 & 2 feel free to move on to these stretch goals.
 
 ### Refactor so that our code is DRY.
 
-You may notice that we are using essentially the same exact JSX code in the `Movie` component and the `MovieDetails` component in `MovieList.js` create a new component in `MovieCard.js` that returns this JSX code. Then remove the old code from `Movie` and `MovieDetails` and instead return the new `MovieCard` component.
+* [x] You may notice that we are using essentially the same exact JSX code in the `Movie` component and the `MovieDetails` component in `MovieList.js` create a new component in `MovieCard.js` that returns this JSX code. Then remove the old code from `Movie` and `MovieDetails` and instead return the new `MovieCard` component.
 
 ### Add `Save Movie` functionality.
 
@@ -48,6 +48,6 @@ You may notice that we are using essentially the same exact JSX code in the `Mov
 
 ### Turn your Saved Movie list into `Link`s.
 
-You will need to uncomment lines 29-39 in `Movie.js` to complete this. Your list of saved movies should be links to the movie itself. Study and understand what the `saveMovie` function is doing.
+* [x] You will need to uncomment lines 29-39 in `Movie.js` to complete this. Your list of saved movies should be links to the movie itself. Study and understand what the `saveMovie` function is doing.
 
 ### Turn your Saved Movie `Link`s into `NavLink`s.
