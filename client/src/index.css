@@ -35,13 +35,20 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.saved-list-wrapper {
+  margin: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .saved-list h3 {
   margin-right: 10px;
 }
 
 .saved-movie {
-  margin: 0 10px;
+  display: block;
+  margin: 10px 10px;
 }
 .saved-active {
   color: blue;
@@ -54,6 +61,7 @@ body {
   margin: 1rem auto;
 }
 .save-button {
+  cursor: pointer;
   position: absolute;
   top: 25px;
   right: 25px;
